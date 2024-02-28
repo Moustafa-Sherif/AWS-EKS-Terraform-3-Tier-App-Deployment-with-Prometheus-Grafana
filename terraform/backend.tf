@@ -1,9 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "sandip-demo-tfstate-bucket"
+    bucket = "devops-demo-tfstate-bucket-us-west-2"
     key    = "eks/terraform.tfstate"
-    region = "us-west-2"
+    region = "us-east-1"
   }
 }
-
-
